@@ -1,6 +1,6 @@
 {
   "name": "what-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns type of given value intellegently",
   "main": "index.js",
   "devDependencies": {
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/vikramcse/what-type.git"
   },
-  "keywords": [],
+  "keywords": ["get", "type", "object", "variable"],
   "author": "Vikram <vikramcse.10@gmail.com>",
   "license": "ISC",
   "bugs": {
