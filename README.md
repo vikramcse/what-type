@@ -1,15 +1,40 @@
 # what type
-Returns type of given value intellegently
+Returns type of given variable/object intellegently
 
-# how to install
+# Install
 ```sh
-$ git clone https://github.com/vikramcse/what-type.git
-$ cd what-type
-$ npm install .
+$ npm install --save what-type
 ```
+
 # Run
 ```js
 var what = require('what-type');
 console.log(what([]));
 // -> 'array'
 ```
+
+## Examples
+
+```js
+var what = require('what-type');
+
+console.log(what([]));
+// -> 'array'
+
+console.log(what('github'));
+// -> 'string'
+```
+
+## Usage
+
+#### `require('what-type')(variable|object)`
+Returns type of given variable/object
+
+**Arguments**:
+- `variable/object`: A variable or Object.
+
+**Returns**: Returns the type of given variable or object
+
+## License
+
+&copy; 2016 vikram. MIT License
